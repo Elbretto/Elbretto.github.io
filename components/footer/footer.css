@@ -1,0 +1,35 @@
+.footer {
+    color: white;
+    background: darkorange;
+    font-size: 1em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.footer * {
+    margin: auto 0;
+}
+
+.footer-socials {
+    list-style: none;
+    display: flex;
+}
+
+.footer-social-button {
+    padding: 0px 25px;
+}
+
+.footer-social-button a {
+    color: white;
+    font-size: 2rem;
+    transition: 0.2s all ease;
+}
+
+.footer-social-button a:hover {
+    color: black;
+    transition: 0.2s all ease;
+}

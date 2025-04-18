@@ -1,0 +1,74 @@
+.email-box {
+    margin: 0 auto;
+}
+
+.email-title {
+    text-align: center;
+}
+
+#email-textbox {
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin: 5px auto;
+    border: 1px solid darkorange;
+    border-radius: 2px;
+}
+
+#email-textbox:focus {
+    border: 1px solid transparent;
+    outline: 3px solid cornflowerblue;
+}
+
+.email-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.send-button {
+    background-color: darkorange;
+    color: white;
+    font-size: 1.5em;
+    padding: 2px 10px;
+    border: 0px;
+    border: 1px solid transparent;
+    transition: 0.2s all ease;
+}
+
+.send-button:hover {
+    scale: 1.05;
+    background-color: floralwhite;
+    color: black;
+    border: 1px solid black;
+    transition: 0.2s all ease;
+}
+
+.social-media-link {
+    text-align: left;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.social-media-link a {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: black;
+    transition: 0.2s all ease;
+}
+
+.social-media-link i {
+    color: darkorange;
+    font-size: 3rem;
+    transition: 0.2s all ease;
+}
+
+.social-media-link a:hover {
+    color: orange;
+    transition: 0.2s all ease;
+}
+
+.social-media-link a:hover i {
+    color: red;
+    transition: 0.2s all ease;
+}

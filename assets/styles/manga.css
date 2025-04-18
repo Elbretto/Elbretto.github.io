@@ -1,0 +1,9 @@
+.manga-photo {
+    width: 75%;
+    border: 1px solid darkorange;
+    border-radius: 2px;
+}
+
+.manga-photo img {
+    width: 100%;
+}
