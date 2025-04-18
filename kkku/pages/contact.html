@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ</title>
+
+    <link href="/assets/styles/style.css" type="text/css" rel="stylesheet">
+    <link href="/assets/styles/contact.css" type="text/css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/49432a73a7.js" crossorigin="anonymous"></script>
+
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>$.get("/components/footer/footer.html", function(data){$("#footer").replaceWith(data);});</script>
+    <script>$.get("/components/navbar/navbar.html", function(data){$("#navbar").replaceWith(data);});</script>
+</head>
+<body>
+    <nav>
+        <div id="navbar"></div>
+    </nav>
+
+    <div class="body-compact">
+        <div class="section-title">
+            メールを送ってください！
+        </div>
+        <div class="email-box">
+            <div class="email-title">ここでメッセージを書いてください。</div>
+            <textarea name="" id="email-textbox" placeholder="ここで書いてください。"></textarea>
+            <div class="email-buttons">
+                <button class="send-button">送る</button>
+            </div>
+        </div>
+
+        <div class="social-media-link"><a href="https://x.com/BrettLooby" target="_blank"><i class="fa-brands fa-x-twitter"></i> Xでメッセージを送る</a></div>
+        <div class="social-media-link"><a href="https://www.instagram.com/old_mr_mcgrumpet/" target="_blank"><i class="fa-brands fa-instagram"></i> インスタグラムでメッセージを送る</a></div>
+        <div class="social-media-link"><a href="https://www.facebook.com/brett.looby/" target="_blank"><i class="fa-brands fa-facebook"></i> フェースブックでメッセージを送る</a></div>
+        <div class="social-media-link"><a href="" target="_blank"><i class="fa-brands fa-line"></i> LINEでメッセージを送る</a></div>
+        <div class="social-media-link"><a href="" target="_blank"><i class="fa-brands fa-n"></i> NAVERブログでメッセージを送る</a></div>
+        <div class="social-media-link"><a href="https://bsky.app/profile/mcgrumpet.bsky.social" target="_blank"><i class="fa-brands fa-bluesky"></i> ブルースカイでメッセージを送る</a></div>
+    </div>
+
+    <footer>
+        <div id="footer"></div>
+    </footer>
+</body>
+</html>
